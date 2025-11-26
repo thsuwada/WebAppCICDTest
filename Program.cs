@@ -14,7 +14,7 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = "swagger"; // URL: /swagger/index.html
 });
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 
